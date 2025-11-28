@@ -13,3 +13,4 @@ __pycache__/
 *.pth
 
 .DS_Store
+node_modules/
