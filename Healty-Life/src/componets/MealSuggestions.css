@@ -1,0 +1,63 @@
+.Main-Container-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.Main-Container {
+    background: linear-gradient(to bottom right, #ffffff, #f5f5f5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.Main-Container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.Main-Container h3 {
+    color: #333;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.Main-Container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.Main-Container li {
+    margin-bottom: 10px;
+    font-size: 1.5rem; /* Adjust font size as needed */
+    position: relative;
+}
+
+.Main-Container li:before {
+    content: "\2022"; /* Unicode for bullet point */
+    position: absolute;
+    left: -20px; /* Adjust the positioning of the bullet point */
+    color: #009688; /* Teal color */
+}
+
+.total-calories {
+    font-weight: bold;
+    color: #e91e63; 
+    margin-top: 20px;
+}
+
+.calorie-info {
+    font-weight: bold;
+    color: #009688; /* Teal */
+}
+.Main-Container p{
+    font-size: 16px;
+}
